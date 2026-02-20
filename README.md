@@ -1,3 +1,47 @@
+# 🐾 Pet Adoption App
+
+A modern, user-friendly mobile application built to connect our furry friends with loving new homes. Users can browse pets awaiting adoption by category, add their favorite pets to a wishlist, and instantly communicate with pet owners via an in-app messaging system. Additionally, users can easily create and manage their own adoption listings.
+
+## ✨ Key Features
+
+* **Categorized Listings:** Easily filter pets by categories such as Dogs, Cats, Birds, and Fishes.
+* **Detailed Pet Profiles:** View comprehensive information including age, breed, weight, gender, location, and a personalized "About" section for each pet.
+* **Add New Pet Form:** Seamlessly create new adoption listings by uploading a photo and providing essential details.
+* **Favorites System:** Like pets to save them to a dedicated "Favorites" screen for quick access later.
+* **Real-Time Chat:** Secure, in-app real-time messaging between potential adopters and pet owners.
+* **Profile & Post Management:** View user profiles, track personal listings ("My Post"), and securely delete own posts when necessary.
+
+## 🚀 Tech Stack
+
+* **Frontend:** React Native, Expo
+* **Backend & Database:** Firebase (Authentication, Firestore Database, Storage)
+* **Navigation:** Expo Router
+
+## 📸 Screenshots
+
+<img src="app ımage 2.jpeg" width="30%" />
+<img src="app ımage 1.jpeg" width="30%" />
+<img src="app ımage 8.jpeg" width="30%" />
+
+<img src="app ımage 3.jpeg" width="30%" />
+<img src="app ımage 4.jpeg" width="30%" />
+<img src="app ımage 5.jpeg" width="30%" />
+
+<img src="app ımage 6.jpeg" width="30%" />
+<img src="app ımage 7.jpeg" width="30%" />
+<img src="app ımage 9.jpeg" width="30%" />
+
+## 🛠️ Installation & Setup
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+
+
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
