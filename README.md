@@ -19,17 +19,17 @@ A modern, user-friendly mobile application built to connect our furry friends wi
 
 ## 📸 Screenshots
 
-<img src="app ımage 2.jpeg" width="30%" />
-<img src="app ımage 1.jpeg" width="30%" />
-<img src="app ımage 8.jpeg" width="30%" />
+<img src="./screenshots/2.jpeg" width="30%" />
+<img src="./screenshots/1.jpeg" width="30%" />
+<img src="./screenshots/8.jpeg" width="30%" />
 
-<img src="app ımage 3.jpeg" width="30%" />
-<img src="app ımage 4.jpeg" width="30%" />
-<img src="app ımage 5.jpeg" width="30%" />
+<img src="./screenshots/3.jpeg" width="30%" />
+<img src="./screenshots/4.jpeg" width="30%" />
+<img src="./screenshots/5.jpeg" width="30%" />
 
-<img src="app ımage 6.jpeg" width="30%" />
-<img src="app ımage 7.jpeg" width="30%" />
-<img src="app ımage 9.jpeg" width="30%" />
+<img src="./screenshots/6.jpeg" width="30%" />
+<img src="./screenshots/7.jpeg" width="30%" />
+<img src="./screenshots/9.jpeg" width="30%" />
 
 ## 🛠️ Installation & Setup
 
