@@ -1,10 +1,9 @@
 import { View, Text, ImageBackground } from 'react-native';
-import React, { useEffect, useState } from 'react'; // BİRLEŞTİRDİK: useState'i doğru yere aldık!
+import React, { useEffect, useState } from 'react'; 
 import { useLocalSearchParams, useNavigation, Stack } from 'expo-router';
 import { addDoc, collection, doc, getDoc, onSnapshot, query, orderBy } from "firebase/firestore";
 import { db } from './../../config/FirebaseConfig';
 import { useUser } from '@clerk/clerk-expo';
-// HAİN IMPORT SİLİNDİ! (react/cjs/react.development)
 import { headerHeight } from '@react-navigation/elements';
 import { GiftedChat } from 'react-native-gifted-chat';
 
@@ -15,7 +14,6 @@ export default function ChatScreen() {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    // ID yoksa boşuna işlem yapıp çökmesini engelliyoruz
     if (!params?.id) return; 
 
     GetUserDetails();
@@ -30,7 +28,7 @@ export default function ChatScreen() {
       setMessages(messageData);
     });
     return () => unsubscribe();
-  }, [params?.id]); // params.id değiştiğinde tetiklenmesini sağladık
+  }, [params?.id]); 
 
   const GetUserDetails = async () => {
     try {
@@ -39,7 +37,6 @@ export default function ChatScreen() {
 
       if (docSnap.exists()) {
         const result = docSnap.data();
-        // ZIRH EKLEDİK: result veya users boş gelirse çökmesin diye aralara ? koyduk
         const otherUser = result?.users?.filter(item => item.email != user?.primaryEmailAddress?.emailAddress);
         
         if (otherUser && otherUser.length > 0) {
